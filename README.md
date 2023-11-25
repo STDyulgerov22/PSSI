@@ -1,1 +1,1 @@
-# PSSI-studio
+# PSSI-Studio
