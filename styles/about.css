@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    width: 25%;
+    padding: 0 8px;
+    float: left;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: DarkSlateGray;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: Black; 
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: DimGray;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: LightGray;
+    color: black;
+}
+
+.button:hover {
+    background-color: DarkSlateGray;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: LightGrey;
+    margin-top: 100px;
+}
