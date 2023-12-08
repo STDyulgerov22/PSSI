@@ -6,6 +6,28 @@ body {
     min-height: 100vh;
 }
 
+/* Hide scroll bar- start */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body,
+  html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+  
+  body::-webkit-scrollbar,
+  html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body,
+  html {
+    overflow-y: scroll;
+  }
+  /* Hide scroll bar - end*/
+
 html {
     box-sizing: border-box;
 }
@@ -57,24 +79,71 @@ html {
     cursor: pointer;
     width: 100%;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
+/* Nav bar section -start*/
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
 .navbar {
-    overflow: hidden;
-    background-color: DimGray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5b8f5c;
+    width: 100%;
+    border-radius: 1vh;
 }
 
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+.navbar > div, .logo {
+    flex: 0;
+}
+.logo {
+    height: 5vh;
+    border-radius: 1vh;
+}
+
+.page-icon {
+    height: 5vh;
+    border-radius: 1vh;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    padding: 0;
+}
+
+.nav-links li {
+    padding: 0 15px;
+}
+
+
+.nav-links a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #346035;
+    border-radius: 10px;
+    padding: 15px 30px;
+    transition: background-color 0.3s;
 }
 
-.navbar a:hover {
-    background-color: LightGray;
-    color: black;
+.nav-links a:hover {
+    background-color: #91cf93;
+    color: rgb(0, 0, 0);
 }
+/* Nav Bar Section - end*/
 
 .button:hover {
     background-color: DarkSlateGray;
@@ -87,9 +156,10 @@ html {
     }
 }
 
-.footer {
-    padding: 20px;
+footer {
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
-    background: LightGrey;
-    margin-top: 100px;
+    padding: 10px 0;
+    margin-top: auto;
 }
