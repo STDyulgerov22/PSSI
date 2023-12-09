@@ -8,10 +8,10 @@
 </head>
 <body>
 
-  <header>
+<header>
     <nav class="navbar">
         <div>
-            <img src="Images/Menu.png" alt="MenuIcon" class="page-icon">
+            <img src="../Images/MainPage.png" alt="MenuIcon" class="page-icon">
         </div>
         <ul class="nav-links">
             <li><a href="../index.html">Home💻</a></li>
@@ -19,7 +19,7 @@
             <li><a href="../Pages/contact.html">Team🤝</a></li>
             <li><a href="#">News📰</a></li>
         </ul>
-        <img src="Images/Logo.jpg" alt="Company Logo" class="logo">
+        <img src="../Images/Logo.jpg" alt="Company Logo" class="logo">
     </nav>
 </header>
 
@@ -33,6 +33,7 @@
       <img src="https://www.finecut.co.uk/wp-content/uploads/2022/01/environmental-go-green-1024x683.jpg" style="width:100%">
     </div>
     <div class="column">
+      <form action="/action_page.php">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
@@ -47,11 +48,14 @@
         </select>
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="file">File Upload</label>
+        <input type="file" id="file" name="filename">
         <input type="submit" value="Submit">
       </form>
     </div>
   </div>
 </div>
+
 <div class="footer">
   <h2>Copyright © 2023; Designed by PSSI Stusio</h2>
 </div>

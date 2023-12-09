@@ -93,14 +93,16 @@ header {
 }
 
 .navbar {
+    position: sticky;
+    top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #5b8f5c;
+    background: linear-gradient(90deg, rgb(74, 50, 78), rgb(11, 43, 97));
     width: 100%;
     border-radius: 1vh;
+    z-index: 1000;
 }
-
 .navbar > div, .logo {
     flex: 0;
 }
