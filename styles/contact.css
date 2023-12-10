@@ -155,7 +155,7 @@ input[type=submit]:hover, input[type=file]:hover {
   }
 }
 
-.footer {
+footer {
   background-color: #4CAF50;
   color: white;
   text-align: center;

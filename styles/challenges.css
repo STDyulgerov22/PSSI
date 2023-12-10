@@ -144,14 +144,16 @@ header {
 .planet-image {
     max-width: 70%;
     height: 25vh;
+    border-radius: 10%;
 }
 .info-text-heading{
+    background-color: #ffffff;
     font-size: 3vh;
     margin-left: auto;
     margin-right: auto;
     max-width: 60%;
     width: 60%;
-    color: rgb(224, 211, 17);
+    color: rgb(77, 198, 93);
     border-radius: 1vh;
     word-wrap: break-word;
     word-break: break-word;
@@ -169,7 +171,7 @@ header {
     margin-right: auto;
     max-width: 60%;
     width: 60%;
-    background: linear-gradient(90deg, rgb(33, 160, 65), rgb(48, 192, 84), rgb(33, 160, 65));
+    background: linear-gradient(90deg, rgb(74, 50, 78), rgb(11, 43, 97));
     color: #ffffff;
     border-radius: 1vh;
     word-wrap: break-word;
@@ -182,7 +184,25 @@ header {
         -1px  1px 0 #000,
          1px  1px 0 #000;
 }
-
+.collect{
+    font-size: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    width: 60%;
+    background: linear-gradient(90deg, rgb(15, 72, 29), rgb(60, 243, 106), rgb(15, 72, 29));
+    color: #ffffff;
+    border-radius: 1vh;
+    word-wrap: break-word;
+    word-break: break-word;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
 footer {
     background-color: #4CAF50;
     color: white;
