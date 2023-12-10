@@ -83,8 +83,9 @@ html {
     display: none;
   }
 /* Nav bar section -start*/
+/* Nav bar section -start*/
 header {
-    background-color: #4CAF50;
+    background: linear-gradient(90deg, rgb(33, 160, 65), rgb(48, 192, 84), rgb(33, 160, 65));
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -103,6 +104,7 @@ header {
     border-radius: 1vh;
     z-index: 1000;
 }
+
 .navbar > div, .logo {
     flex: 0;
 }
@@ -135,15 +137,15 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: #346035;
+    background: linear-gradient(90deg, rgb(33, 160, 65), rgb(48, 192, 84), rgb(33, 160, 65));
     border-radius: 10px;
     padding: 15px 30px;
     transition: background-color 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: #91cf93;
-    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(75, 90, 79), rgb(48, 192, 84), rgb(17, 81, 33));
+    color: rgb(219, 219, 219);
 }
 /* Nav Bar Section - end*/
 
