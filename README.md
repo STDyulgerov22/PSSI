@@ -15,9 +15,9 @@
   
 ## 📃 Documentation <a name="docs"></a>
   
-## [Team documentation]()
+## [Team documentation](Documentation/Team PSSI studio.docx)
   
-## [Presentation]()
+## [Presentation](Documentation/Team PSSI studio.pptx)
 
 ## 🖥️ Technologies used <a name="technologies"></a> 
   
