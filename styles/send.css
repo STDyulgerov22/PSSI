@@ -26,6 +26,7 @@ html, body {
 
 /* Body styling */
 body {
+  background: linear-gradient(90deg, rgb(230, 215, 233),rgb(102, 159, 99),rgb(155, 173, 204));
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -167,6 +168,7 @@ h2{
          1px  1px 0 #000;
 }
 label{
+  padding: 10px;
   font-size: 25px;
   color: #ffffff;
 }
@@ -195,29 +197,40 @@ label{
 /* Input styles */
 input[type=text], select, textarea, input[type=email], input[type=submit], input[type=file] {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
+  padding: 17px;
+  border: 3px solid #6f6f6f;
+  margin-top: 10px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
-input[type=submit], input[type=file] {
-  background-color: #04AA6D;
+input[type=submit] {
+  background: linear-gradient(90deg, rgb(33, 160, 65), rgb(48, 192, 84), rgb(33, 160, 65));
   color: white;
-  padding: 12px 20px;
+  margin-left: 10px;
+  padding: 20px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
+  width: 15vh;
+  transition: background-color 0.3s;
+}
+
+input[type=file] {
+  background: linear-gradient(90deg, rgb(160, 145, 33), rgb(192, 170, 48), rgb(160, 154, 33));
+  color: white;
+  padding: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
   width: 15vh;
   transition: background-color 0.3s;
 }
 
 input[type=submit]:hover, input[type=file]:hover {
-  background-color: #45a049;
+  background: linear-gradient(90deg, rgb(90, 76, 75), rgb(192, 79, 48), rgb(81, 29, 17));
 }
 
-/* Footer styling */
 footer {
   background-color: #4CAF50;
   color: white;
@@ -225,6 +238,7 @@ footer {
   padding: 10px 0;
   margin-top: auto;
 }
+
 #image
 {
   width: 70%;

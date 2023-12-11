@@ -25,6 +25,7 @@
   /* Hide scroll bar - end*/
 
 body {
+  background: linear-gradient(90deg, rgb(230, 215, 233),rgb(102, 159, 99),rgb(155, 173, 204));
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -42,7 +43,7 @@ header {
     align-items: center;
     width: auto;
 }
-/* Add this to your existing CSS */
+
 .hidden-header {
     transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
