@@ -27,7 +27,7 @@
 <a href="#"><img src="images/powerPointIcon.png" width=100></a>
 <a href="#"><img src="images/teamsIcon.png" width=100></a>
 <a href="#"><img src="images/vsCode-icon.png" width=100></a>
-<a href="#"><img src="images/wordIcon.png" width=100></a>
+<a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width=100></a>
 ## 🧑 Collaborators <a name="collaborators"></a>
 - [Stiliqn Dylgerov](https://github.com/STDyulgerov22) - Scrum trainer 
 - [Ivailo Lalev](https://github.com/ILLalev22) - Front-end Developer
