@@ -107,6 +107,12 @@ header {
   background: linear-gradient(90deg, rgb(75, 90, 79), rgb(48, 192, 84), rgb(17, 81, 33));
   color: rgb(219, 219, 219);
 }
+#WAR{
+  background-color: #0000007c;
+  border-radius: 10px;
+  color: red;
+  padding: 10px;
+}
 @keyframes moveBackground {
   0% {
       background-position: 100% 0;
