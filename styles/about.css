@@ -85,6 +85,8 @@ html {
 /* Nav bar section -start*/
 /* Nav bar section -start*/
 header {
+    position: sticky;
+    top: 0px;
     background: linear-gradient(90deg, rgb(33, 160, 65), rgb(48, 192, 84), rgb(33, 160, 65));
     padding: 10px 20px;
     display: flex;
@@ -99,10 +101,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, rgb(74, 50, 78), rgb(11, 43, 97));
+    background: linear-gradient(90deg, rgb(50, 78, 61), rgb(11, 97, 12));
     width: 100%;
     border-radius: 1vh;
     z-index: 1000;
+}
+
+.hidden-header {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hidden-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
 }
 
 .navbar > div, .logo {
@@ -167,3 +179,56 @@ footer {
     padding: 10px 0;
     margin-top: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      margin-top: 0;
+      padding: 20px;
+    }
+  
+    input[type=submit], input[type=file] {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .nav-links li {
+      padding: 0 5px;
+    }
+  
+    .nav-links a {
+      padding: 10px 15px;
+    }
+  
+    header, .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo, .page-icon {
+      height: 4vh;
+    }
+  
+    h2, .info-text, .info-text-heading {
+      font-size: 2.5vh;
+      max-width: 80%;
+      width: 80%;
+    }
+  
+    #image {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .nav-links li {
+      padding: 0 2px;
+    }
+  
+    .nav-links a {
+      font-size: smaller;
+    }
+  
+    h2, .info-text, .info-text-heading {
+      font-size: 2vh;
+    }
+  }

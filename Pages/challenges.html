@@ -13,10 +13,10 @@
                 <img src="../Images/MainPage.png" alt="MenuIcon" class="page-icon">
             </div>
             <ul class="nav-links">
-                <li><a href="../index.html">Home💻</a></li>
-                <li><a href="../Pages/challenges.html">Challenges🏆</a></li>
-                <li><a href="../Pages/team.html">Team🤝</a></li>
-                <li><a href="#">News📰</a></li>
+                <li><a href="../index.html">💻Home</a></li>
+                <li><a href="../Pages/challenges.html">🏆Challenges</a></li>
+                <li><a href="../Pages/team.html">🤝Team</a></li>
+                <li><a href="#">📰News</a></li>
             </ul>
             <img src="../Images/Logo.jpg" alt="Company Logo" class="logo">
         </nav>
@@ -59,5 +59,20 @@
     <footer>
         <p>&copy; 2023 Green Challenges by PSSI Studio. All rights reserved.</p>
     </footer>
+
+    <script>
+        let lastScrollTop = 0;
+        window.addEventListener("scroll", function() {
+            let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScroll > lastScrollTop) {
+                document.querySelector('header').classList.add('hidden-header');
+            } else {
+                document.querySelector('header').classList.remove('hidden-header');
+            }
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+        }, false);
+    </script>
+    
+
 </body>
 </html>
