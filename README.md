@@ -15,7 +15,7 @@
   
 ## 📃 Documentation <a name="docs"></a>
   
-## [Team documentation](Documentation/Team PSSI studio.docx)
+## [Team documentation](https://github.com/STDyulgerov22/Documentation/Team PSSI studio.docx)
   
 ## [Presentation](Documentation/Team PSSI studio.pptx)
 
