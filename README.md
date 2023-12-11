@@ -10,7 +10,8 @@
   - [Collaborators](#collaborators)
   
 ## 🔍 Description <a name="description"></a>
-<p align="center"> Green Chalenges </p>
+<h1 align="center"> Green Challenges </h1>
+<p align="center"> Our site goal is to make more people do fun and relaxin "green" challenges which help the enviorment by rewarding the people! When the person have done a certain challenge and send us proof they will win small prize! </p>
   
 ## 📃 Documentation <a name="docs"></a>
   
@@ -20,9 +21,9 @@
 
 ## 🖥️ Technologies used <a name="technologies"></a> 
   
-<a href="#"><img src="images/css-icon.png" width=100></a>
-<a href="#"><img src="images/figmaIcon.png" width=100 height=101></a>
-<a href="#"><img src="images/gitHubIcon.png" width=100></a>
+<a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" width=100></a>
+<a href="#"><img src="https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format" width=100 height=101></a>
+<a href="#"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=100></a>
 <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" width=100></a>
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414" width=100></a>
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/826px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width=100></a>
