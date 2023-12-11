@@ -12,12 +12,6 @@
 ## 🔍 Description <a name="description"></a>
 <h1 align="center"> Green Challenges </h1>
 <p align="center"> Our site goal is to make more people do fun and relaxing "green" challenges which help the enviorment by rewarding the people! When the person have done a certain challenge and send us proof they will win small prize!</p>
-  
-## 📃 Documentation <a name="docs"></a>
-  
-## [Team documentation](https://github.com/STDyulgerov22/Documentation/Team PSSI studio.docx)
-  
-## [Presentation](Documentation/Team PSSI studio.pptx)
 
 ## 🖥️ Technologies used <a name="technologies"></a> 
   
