@@ -250,7 +250,21 @@ footer {
   border-radius: 1vh;
 }
 
-/* Responsive layout adjustments */
+.cover {
+  position: fixed;
+  top: 0;
+  left: -150%;
+  width: 150%;
+  height: 100%;
+  background-color: #31b55b;
+  background-image: url('../Images/Logo.jpg');
+  background-size: 20% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  transition: left 0.5s ease;
+}
+
 @media screen and (max-width: 600px) {
   .column, input[type=submit], input[type=file] {
     width: 100%;
@@ -266,7 +280,7 @@ footer {
   }
 @media screen and (max-width: 600px) {
   .container {
-    height: auto; /* Adjust the height based on your design */
+    height: auto;
   }
 }
   input[type=submit], input[type=file] {
