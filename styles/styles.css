@@ -198,16 +198,16 @@ header {
 .cover {
   position: fixed;
   top: 0;
-  left: -150%; /* Start off-screen */
+  left: -150%;
   width: 150%;
   height: 100%;
-  background-color: #31b55b;
-  background-image: url('../Images/Logo.jpg'); /* Path to your background image */
-  background-size: 20% auto; /* Set background size to cover 50% of the element */
-  background-position: center center; /* Center the image horizontally and vertically */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #000000;
+  background-image: url('../Images/Logo.png');
+  background-size: 20% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
   z-index: 9999;
-  transition: left 0.5s ease; /* Smooth slide-in transition */
+  transition: left 0.5s ease;
 }
 
 
